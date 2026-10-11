@@ -1,0 +1,51 @@
+{
+  "units": "degrees C",
+  "original_measured_rows": 1800,
+  "prediction_rows": 1800,
+  "comparable_points": 1747,
+  "excluded_measured_rows": 53,
+  "status_counts": {
+    "OK": 1747,
+    "MISSING": 33,
+    "REJECTED": 14,
+    "SUSPICIOUS": 6
+  },
+  "mean_signed_difference": 1.7348654836863193,
+  "mean_absolute_difference": 1.7348654836863193,
+  "median_signed_difference": 1.745000000000001,
+  "maximum_absolute_difference": 2.6030000000000015,
+  "difference_q05": 1.345899999999999,
+  "difference_q95": 2.116699999999998,
+  "region_summary": [
+    {
+      "region": "Samples 1-450",
+      "count": 440,
+      "mean_signed_difference": 1.7500431818181819,
+      "mean_absolute_difference": 1.7500431818181819
+    },
+    {
+      "region": "451-800",
+      "count": 340,
+      "mean_signed_difference": 1.722920588235294,
+      "mean_absolute_difference": 1.722920588235294
+    },
+    {
+      "region": "801-1180",
+      "count": 370,
+      "mean_signed_difference": 1.707583783783784,
+      "mean_absolute_difference": 1.707583783783784
+    },
+    {
+      "region": "1181-1500",
+      "count": 305,
+      "mean_signed_difference": 1.7709868852459019,
+      "mean_absolute_difference": 1.7709868852459019
+    },
+    {
+      "region": "1501-1800",
+      "count": 292,
+      "mean_signed_difference": 1.7227431506849316,
+      "mean_absolute_difference": 1.7227431506849316
+    }
+  ]
+}
